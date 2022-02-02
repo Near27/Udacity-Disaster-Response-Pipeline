@@ -65,7 +65,7 @@ GridSearchCV documentation: https://scikit-learn.org/stable/modules/generated/sk
 Run the ML pipeline to produce the message classifier:
 
 ```bash
-python ./models/train_classifier.py ./MessageCategory.db classifier.pk
+python ./models/train_classifier.py ./MessageCategory.db classifier.pkl
 ```
 
 3. Run the web application
