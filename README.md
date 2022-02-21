@@ -59,7 +59,9 @@ python ./data/process_data.py ./data/disaster_messages.csv ./data/disaster_categ
 2. Train Machine learning model
 
 The machine learning model uses the sklearn Logistic Regression algorithm and tunes the parameters using GridSearchCV
+
 Sklearn Logistic Regression documentation: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+
 GridSearchCV documentation: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 
 Run the ML pipeline to produce the message classifier:
